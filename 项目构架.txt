@@ -9,34 +9,71 @@ GFTrademark-APP
 ├──故事板（空）
 │
 ├──基类
-│ ├──主视图控制器:GFBaseViewController
+│ ├──主视图控制器:GFBaseViewController	Created by 夏伟耀 on 16/2/26
 │【导航栏模块】
-│ ├──主要构架
+│ ├──主要构架				
+│ │ ├──登录				Created by 夏伟耀 on 16/2/26.
+│ │ ├──登录验证				Created by 夏伟耀 on 16/7/30.
+│ │ ├──注册				Created by 夏伟耀 on 16/7/26.
+│ │ ├──找回密码				Created by 夏伟耀 on 16/7/28.
+│ │ ├──服务条款				Created by 梁梓龙 on 16/3/8.
+│ │ ├──主要TabBar			Created by 梁梓龙 on 16/3/23.
+│ │ └──欢迎界面				Created by 梁家安 on 17/7/4.
 │ ├──商标识别（第一栏）
+│ │ ├──识别home设置			Created by 梁梓龙 on 16/3/11.
+│ │ ├──普通识别查询			Created by 梁家安 on 17/2/13.
+│ │ │ ├──
+│ │ │ └──
+│ │ ├──高级识别查询			Created by 梁家安 on 17/2/21.
+│ │ │ ├──
+│ │ │ └──
+│ │ ├──剪裁[xib设计]			Created by 梁梓龙 on 16/3/17.
+│ │ ├──分拆组合				Created by 梁梓龙 on 16/3/29.
+│ │ ├──结合预览				Created by 梁梓龙 on 16/4/5.
+│ │ ├──替换追加				Created by 梁梓龙 on 16/4/13.	Created by 梁梓龙 on 16/4/14.
+│ │ ├──添加查询方式			Created by 夏伟耀 on 16/4/12.
+│ │ ├──展示图片				Created by 梁家安 on 17/3/7.
+│ │ ├──准备				Created by 梁梓龙 on 16/3/24.		
+│ │ └──近似商标图样			Created by 梁梓龙 on 16/4/12.
 │ ├──商标查询（第二栏）
+│ │ ├── 查询home设置			Created by 夏伟耀 on 16/4/19.
+│ │ └──高级查询				Created by 梁梓龙 on 16/4/20.
 │ ├──商标服务（第三栏）
+│ │ ├── WebServiceView			Created by 夏伟耀 on 16/4/21.
+│ │ └──商标在线代理			Created by 夏伟耀 on 16/4/21.
 │ └──我的（第四栏）
+│ │ ├──MyView				Created by 夏伟耀 on 16/4/22.
+│ │ ├──进程处理				Created by 夏伟耀 on 16/4/23.
+│ │ ├──注册信息				Created by 夏伟耀 on 16/4/25.
+│ │ ├──替换主设备				Created by 梁家安 on 2017/6/8.
+│ │ ├──修改密码				Created by 夏伟耀 on 16/4/25.
+│ │ ├──用卡管理				Created by 夏伟耀 on 16/4/25.
+│ │ ├──购国方卡				Created by 梁家安 on 17/6/13.
+│ │ ├──我的订单				Created by 梁家安 on 17/6/27.
+│ │ ├──使用日志				Created by 夏伟耀 on 16/4/26.
+│ │ ├──注销当前用户			Created by 夏伟耀 on 16/4/22. ->GFMyViewController.m
+│ │ └──【我的通知】新增			Created by 王 宁 on 18/1/22.
 │【功能模块】
-│ ├──苹果支付
-│ ├──图像要素
-│ ├──商品范围
-│ ├──搜索算法
+│ ├──苹果支付				Created by 梁家安 on 17/6/16.
+│ ├──图像要素				Created by 夏伟耀 on 16/4/13.
+│ ├──商品范围				Created by 夏伟耀 on 16/3/17.
+│ ├──搜索算法				【多人合作】
 │ └──结果展示
 │
 ├──数据导入样式
 │
 ├──数据导出样式
 │
-├──网络请求
+├──网络请求				Created by 梁梓龙 on 15/11/24.	Created by 夏伟耀 on 16/7/25.
 │
-├──数据库服务
+├──数据库服务				Created by 夏伟耀 on 16/2/26.
 │
 ├──自定义视图
 │
 ├──工具类
 │ └──常用宏（服务器、颜色、屏幕尺寸等）
 │ 
-├──AppDelegate项目启动代理（launch图片）
+├──AppDelegate项目启动代理（launch图片）	Created by 夏伟耀 on 16/2/24.
 │ └──AppDelegate+AppService 处理生命周期之外的业务
 │
 └───配置文件info.plist
